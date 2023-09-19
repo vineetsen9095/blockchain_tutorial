@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "choice",
+				"outputs": [
+					{
+						"internalType": "enum Enums.size",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setLarge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setMedium",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setSmall",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Own code/Enums.sol": "Enums"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Own code/Enums.sol": {
+			"keccak256": "0x222b3eb65080663f2db46c051dfb1c5e6bc626834fbec85551ef7cd92effc21c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://030e7e2ca5e5539d221095fce9cc380ffced8a26e2fa749e8f3f9d296697233e",
+				"dweb:/ipfs/QmVsMcjzb8CT42icB7TAQnQZHb4LVjmKXZy4svWWh72tMc"
+			]
+		}
+	},
+	"version": 1
+}

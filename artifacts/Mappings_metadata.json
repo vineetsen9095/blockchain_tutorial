@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "bal",
+						"type": "uint256"
+					}
+				],
+				"name": "setBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Own code/mapping.sol": "Mappings"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Own code/mapping.sol": {
+			"keccak256": "0x905a013493529fb6e61f9b7f25beeeef75ca1d4f4072b41c0a7bbdb6cf71e1c0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e7cbb1f93f1cf6742bb5bd3d4868f210a7280badf5dbebde838e520c3a0d7e16",
+				"dweb:/ipfs/Qmdadk6odwNdEAZsC4BBdvtU5coGmGrQdF6UjyMkAun98i"
+			]
+		}
+	},
+	"version": 1
+}

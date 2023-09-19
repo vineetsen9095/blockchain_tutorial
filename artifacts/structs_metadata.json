@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getstudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "newstudent",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Own code/struct.sol": "structs"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Own code/struct.sol": {
+			"keccak256": "0x10900f912b3f80a13cd39585345c6cd775b7f34a1b0434e557dfc9705aca8391",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://adaf44f194d349bb95582bca1ab7b81129b92f917f0b49af1d39259e8e804a23",
+				"dweb:/ipfs/QmZ4WfrNWmGPaokiYKbF5Fw3HERSDLvAaibE3d2VzJt7Gm"
+			]
+		}
+	},
+	"version": 1
+}
